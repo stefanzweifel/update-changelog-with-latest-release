@@ -22,6 +22,7 @@ node dist/index.js --repository='https://github.com/stefanzweifel/update-changel
 - Foo
 - Bar'
 ```
+The updated CHANGELOG is piped to stdout.
 
 ### Options
 All options are currently required.
