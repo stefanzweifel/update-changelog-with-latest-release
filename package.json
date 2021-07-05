@@ -1,0 +1,39 @@
+{
+  "name": "gh-actions-markdown-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs",
+    "build": "ncc build index.mjs -o dist",
+    "local-test": "node index.mjs --repository='https://github.com/stefanzweifel/update-changelog-with-latest-release' --latest-version='v1.1.0' --previous-version='v1.0.0' --release-date='2021-08-01' --path-to-changelog='stubs/before.md' --release-changelog='### Added \n - Foo \n - Bar'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/ncc": "^0.28.6",
+    "find-versions": "^5.0.0",
+    "hastscript": "^7.0.1",
+    "markdown-ast": "^0.2.1",
+    "minimist": "^1.2.5",
+    "rehype-stringify": "^8.0.0",
+    "remark": "^13.0.0",
+    "remark-cli": "^9.0.0",
+    "remark-html": "^13.0.1",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.1.0",
+    "remark-stringify": "^9.0.1",
+    "underscore": "^1.13.1",
+    "unified": "^9.2.1",
+    "unified-stream": "^1.0.6",
+    "unist-util-find": "^1.0.2",
+    "unist-util-find-after": "^4.0.0",
+    "unist-util-modify-children": "^3.0.0",
+    "unist-util-visit": "^3.0.1",
+    "unist-util-visit-children": "^2.0.0"
+  },
+  "devDependencies": {
+    "unist-builder": "^3.0.0"
+  }
+}
