@@ -49,12 +49,12 @@ List of changes for the latest version. Should be a markdown string.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](stefanzweifel/update-changelog-with-latest-release/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/stefanzweifel/update-changelog-with-latest-release/tags).
 
 ## Credits
 
 * [Stefan Zweifel](https://github.com/stefanzweifel)
-* [All Contributors](stefanzweifel/update-changelog-with-latest-release/graphs/contributors)
+* [All Contributors](https://github.com/stefanzweifel/update-changelog-with-latest-release/graphs/contributors)
 
 ## License
 
