@@ -1,12 +1,12 @@
 # update-changelog-with-latest-release
 
-Node CLI to add latest release notes to a CHANGELOG using the [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) format.
+> Node CLI to add latest release notes to a CHANGELOG using the [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) format.
 
 **Note:** I've rewritten this project in PHP. Checkout the [changelog-updater CLI](https://github.com/stefanzweifel/php-changelog-updater) or the [changelog-updater GitHub Action](https://github.com/stefanzweifel/changelog-updater-action).
 
-**⚠️ This is still an experiment. Use at your own risk!**
-
 ## Usage
+
+**⚠️ This was an experiment. Use at your own risk!**
 
 Execute the CLI like the example below. You currently have to provide a lot of information. (The goal for the future would be to infer as much information as possible from the existing CHANGELOG.md).
 
